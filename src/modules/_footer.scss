@@ -1,0 +1,38 @@
+
+/* FOOTER */
+.greybar {
+  @include bar(90px, $greybar);
+
+  clear:both;
+  padding-top:30px;
+}
+
+footer {
+  @include bar (120px, $background);
+
+  text-align:center;
+  color:$white;
+  padding-top:50px;
+}
+
+.social-media {
+  margin:0 auto;
+  width:165px;
+
+  div {
+    float:left;
+    margin-right:5px;
+  }
+
+  a {
+    display:block;
+    width:36px;
+    height:36px;
+    text-indent:-9999px;
+  }
+
+  div.one {background:$img-social-media 0 0;}
+  div.two {background:$img-social-media -38px 0;}
+  div.three {background:$img-social-media -76px 0;}
+  div.four {background:$img-social-media -114px 0;}
+}
